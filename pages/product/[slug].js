@@ -40,7 +40,7 @@ const ProductDetails = ({ product, products }) => {
                             <img
                                 src={urlFor(item)}
                                 className ={i === index ? 'small-image selected-image' : 'small-image'}
-                                onMouseEnter={() => setIndex(i) }
+                                onClick={() => setIndex(i) }
                             />
                         ))}
                     </div>
@@ -70,7 +70,9 @@ const ProductDetails = ({ product, products }) => {
                     </div>
                     <div className='buttons'>
                         <button type='button' className='add-to-cart' onClick={() => onAdd(product, qty)} >Hisobga qo'shish</button>
-                        <button type='button' className='buy-now' >Buyurtma uchun</button>
+                        <a href='tel:+998911660567'>
+                            <button type='button' className='buy-now' >Buyurtma uchun</button>
+                        </a>
                     </div>
                 </div>
             </div>
