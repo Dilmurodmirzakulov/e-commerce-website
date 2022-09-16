@@ -25,7 +25,7 @@ const Cart = () => {
                     onClick={() => setShowCart(false)}
                 >
                     <AiOutlineLeft />
-                    <span className="heading">Sizni tanlovingiz </span>
+                    <span className="heading">Ortga qaytish </span>
                     <span className="cart-run-items"> ({totalQuantities} qop o'yinchoq)</span>
                 </button>
 
