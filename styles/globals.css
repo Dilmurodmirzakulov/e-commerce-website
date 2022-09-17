@@ -935,6 +935,9 @@ span.text-red {
   .logo a{
     font-size: 14px;
   }
+  .phone-number-container{
+    margin-top: 10px;
+  }
   .phone-number{
     font-size: 14px;
   }
