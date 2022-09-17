@@ -938,6 +938,9 @@ span.text-red {
   .phone-number{
     font-size: 14px;
   }
+  .phone-number1{
+    margin-bottom: 15px;
+  }
   .navbar-container div{
     gap: 15px;
   }
