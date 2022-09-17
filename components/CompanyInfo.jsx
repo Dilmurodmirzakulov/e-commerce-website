@@ -12,25 +12,25 @@ const CompanyInfo = () => {
         const prices = document.getElementById('prices');
 
         delivery.addEventListener("mouseover", ()=>{
-            delivery.style.transform = 'scale(1.1)'
+            delivery.style.transform = 'scale(1.02)'
         })
         delivery.addEventListener("mouseout", ()=>{
             delivery.style.transform = 'scale(1)'
         })
         connection.addEventListener("mouseover", ()=>{
-            connection.style.transform = 'scale(1.1)'
+            connection.style.transform = 'scale(1.02)'
         })
         connection.addEventListener("mouseout", ()=>{
             connection.style.transform = 'scale(1)'
         })
         quality.addEventListener("mouseover", ()=>{
-            quality.style.transform = 'scale(1.1)'
+            quality.style.transform = 'scale(1.02)'
         })
         quality.addEventListener("mouseout", ()=>{
             quality.style.transform = 'scale(1)'
         })
         prices.addEventListener("mouseover", ()=>{
-            prices.style.transform = 'scale(1.1)'
+            prices.style.transform = 'scale(1.02)'
         })
         prices.addEventListener("mouseout", ()=>{
             prices.style.transform = 'scale(1)'

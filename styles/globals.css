@@ -109,7 +109,7 @@ span.text-red {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 15px;
+  /* gap: 15px; */
   margin-top: 20px;
   width: 100%;
 }
@@ -453,14 +453,29 @@ span.text-red {
 }
 .product {
   display: flex;
-  gap: 30px;
+  /* gap: 30px; */
+  justify-content: space-between;
   padding: 20px;
 }
+.cart-image-container{
+  height: 110px;
+  width: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  box-shadow: inset 5.43px 11.81px 17.24px -2.16px rgba(0, 0, 0, 0.062),
+  inset -8.14px -17.72px 17.24px -2.16px rgba(0, 0, 0, 0.116),
+  8.29px 10.44px 12.93px -6.47px rgba(0, 0, 0, 0.171);
+}
 .product .cart-product-image {
-  width:180px ;
-  height: 150px;
-    border-radius: 15px;
-  background-color: #ebebeb;
+  width: 100px;
+  height: auto;
+  background-color: transparent;
+  /* width:180px ;
+  height: 150px; */
+    /* border-radius: 15px; */
+  /* background-color: #ebebeb; */
 }
 .product-image-container{
   display: inline;
@@ -561,10 +576,11 @@ span.text-red {
 }
 .small-images-container {
   display: flex;
-  gap: 10px;
+  /* gap: 10px; */
   margin-top: 20px;
 }
 .small-image {
+  margin-right: 10px;
   border-radius: 8px;
   background-color: #ebebeb;
   width: 70px;
@@ -613,9 +629,10 @@ span.text-red {
 }
 .product-detail-desc .buttons {
   display: flex;
-  gap: 30px;
+  /* gap: 30px; */
 }
 .buttons .add-to-cart {
+  margin-right: 30px;
   padding: 10px 20px;
   border: 1px solid #f02d34;
   margin-top: 40px;
@@ -682,9 +699,12 @@ span.text-red {
 .maylike-products-container {
   display: flex;
   justify-content: center;
-  gap: 15px;
   margin-top: 20px;
 }
+.animated-product{
+  margin-right: 20px;
+}
+
 .max-qty {
   font-weight: 500;
   color: #f02d34;

@@ -47,21 +47,11 @@ const ProductDetails = ({ product, products }) => {
                 </div>
                 <div className='product-detail-desc'>
                     <h1>{name}</h1>
-                    <div className='reviews'>
-                        <div>
-                            <AiFillStar />
-                            <AiFillStar />
-                            <AiFillStar />
-                            <AiFillStar />
-                            <AiOutlineStar />
-                        </div>
-                        <p>(20)</p>
-                    </div>
                     <h4>Ma'lumotlar: </h4>
                     <p>{details}</p>
                     <p className='price'>{price} so'm</p>
                     <div className='quantity'>
-                        <h3>Qop: </h3>
+                        <h3>Qadoq: </h3>
                         <p className="quantity-desc">
                             <span className='minus' onClick={decQty}><AiOutlineMinus /></span>
                             <span className='num'>{qty}</span>

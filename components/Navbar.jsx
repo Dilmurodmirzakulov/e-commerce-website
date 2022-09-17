@@ -15,7 +15,7 @@ const Navbar = () => {
             </p>
 
             <div>
-                <a href="tel:+998911660567" class="phone-number">91 166 05 67</a>
+                <a href="tel:+998911660567, tel:+998991234567" class="phone-number">91 166 05 67</a>
                 <button type='button' className='cart-icon' onClick={() => setShowCart(true)}>
                     <AiOutlineShopping />
                     <span className='cart-item-qty'>{totalQuantities}</span>
