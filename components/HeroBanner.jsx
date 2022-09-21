@@ -15,7 +15,7 @@ const HeroBanner = ({heroBanner}) => {
                 {/* <Link href={`/product/${heroBanner.product}`}>
                 </Link> */}
                 <button type='button' >
-                    <a href="+998911660567" class="phone-number">{heroBanner.buttonText}</a>
+                    <a href="tel: +998911660567" class="phone-number">{heroBanner.buttonText}</a>
                 </button>
 
                 <div className='desc'>

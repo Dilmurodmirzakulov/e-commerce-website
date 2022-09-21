@@ -15,7 +15,7 @@ const Products = ({ product: { image, name, slug, price } }) => {
                         />
                     </div>
                     <p className='product-name'>{name}</p>
-                    <p className='product-price'>{price} so'm</p>
+                    <p className='product-price'>{price} so'm (1 qadoq)</p>
                 </div>
             </Link>
         </div>
