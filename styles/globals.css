@@ -180,6 +180,8 @@ span.text-red {
   font-size: 7em;
   /* margin-left: -20px; */
   text-transform: uppercase;
+  z-index: 2;
+  position: relative;
   /* display: inline;
   margin-right: 30px; */
   /* margin-left: 5vw; */
@@ -328,6 +330,8 @@ span.text-red {
   font-size: 80px;
   margin-left: 25px;
   margin-top: 10px;
+  position: relative;
+  z-index: 2;
 }
 .banner-desc .left p {
   margin: 18px;
@@ -336,10 +340,10 @@ span.text-red {
   position: absolute;
   /* top: -35%;
   left: 8%; */
-  width: 400px;
+  width: 300px;
   height: auto;
   top: 9%;
-  left: 25%;
+  left: 27%;
 }
 .banner-desc .right {
   line-height: 1.4;
