@@ -795,7 +795,7 @@ span.text-red {
     width: 50%;
     /* height: 62%; */
     top: 35%;
-    /* right: -10%; */
+    right: 5%;
   }
   .footer-banner-container {
     height: 560px;
@@ -807,9 +807,9 @@ span.text-red {
     margin-top: -100px;
   }
   .footer-banner-image {
-    width: 57%;
-    left: 40%;
-    top: 6%;
+    width: 50%;
+    left: 47%;
+    top: 9%;
     /* height: 56%; */
   }
   .banner-desc .left h3 {
